@@ -17,6 +17,6 @@ export class AppController {
 
   @Get('/name')
   getName(): string {
-    return JSON.stringify({ email: this.appService.getName() })
+    return JSON.stringify({ name: this.appService.getName() })
   }
 }
