@@ -9,4 +9,14 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello()
   }
+
+  @Get('/email')
+  getEmail(): string {
+    return JSON.stringify({ email: this.appService.getEmail() })
+  }
+
+  @Get('/name')
+  getName(): string {
+    return JSON.stringify({ email: this.appService.getName() })
+  }
 }
