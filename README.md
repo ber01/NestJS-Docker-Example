@@ -47,7 +47,7 @@ $ curl localhost:3000
 ```
 $ curl localhost:3000/email
 
-> {"email":"KyungHwan, Min"}
+> {"email":"ber01@naver.com"}
 ```
 
 ## `/name`
@@ -55,5 +55,5 @@ $ curl localhost:3000/email
 ```
 $ curl localhost:3000/name
 
-> {"name":"ber01@naver.com"}
+> {"name":"KyungHwan, Min"}
 ```
