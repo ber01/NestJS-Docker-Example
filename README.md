@@ -34,7 +34,7 @@ $ docker run -d --rm -p 3000:3000 nestjs-docker-example
 
 # 테스트
 
-## /
+## `/`
 
 ```
 $ curl localhost:3000
@@ -42,18 +42,18 @@ $ curl localhost:3000
 > Hello World!
 ```
 
-## /email
+## `/email`
 
 ```
-$ curl localhost:3000
+$ curl localhost:3000/email
 
 > {"email":"KyungHwan, Min"}
 ```
 
-## /name
+## `/name`
 
 ```
-$ curl localhost:3000
+$ curl localhost:3000/name
 
-> {"email":"ber01@naver.com"}
+> {"name":"ber01@naver.com"}
 ```
