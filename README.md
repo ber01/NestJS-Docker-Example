@@ -19,3 +19,41 @@ $ nest new nestjs-docker-example
 ```
 $ brew install --cask docker
 ```
+
+# 실행
+
+```
+$ yarn
+
+$ yarn build:all
+```
+
+```
+$ docker run -d --rm -p 3000:3000 nestjs-docker-example
+```
+
+# 테스트
+
+## /
+
+```
+$ curl localhost:3000
+
+> Hello World!
+```
+
+## /email
+
+```
+$ curl localhost:3000
+
+> {"email":"KyungHwan, Min"}
+```
+
+## /name
+
+```
+$ curl localhost:3000
+
+> {"email":"ber01@naver.com"}
+```
