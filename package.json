@@ -4,6 +4,7 @@
   "author": "ber01",
   "private": true,
   "license": "MIT",
+  "bin": "dist/main.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
