@@ -10,6 +10,7 @@
     "build": "nest build",
     "build:pkg": "pkg . --target node16-linux-x64 --output dist/server",
     "build:docker": "docker build -t nestjs-docker-example .",
+    "build:all": "yarn build && yarn build:pkg && yarn build:docker",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
